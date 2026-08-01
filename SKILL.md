@@ -30,6 +30,14 @@ tags:
 - 用户需要云基础设施规划或迁移
 - 用户提到"CI/CD""DevOps""K8s""Docker""监控告警""日志""灾备""IaC""Terraform""运维"等关键词
 
+## 记忆系统
+
+本技能遵循 `~/.workbuddy/MEMORY.md` 中定义的融合记忆管理规则（v2.1）。
+
+- **执行前**：读取 `.workbuddy/memory/MEMORY.md` 本技能对应分段 + `.workbuddy/memory/YYYY-MM-DD.md`（今日日志，如存在）
+- **执行后**：追加 `[devops-guide] 场景描述 → 关键决策` 到 `.workbuddy/memory/YYYY-MM-DD.md`；如有可复用决策，去重后追加到 MEMORY.md 对应分段
+- **轮转检查**：写入后检查日志是否超 30 天 / 35 篇，满足则按规则归档
+
 ## 执行流程
 
 按以下 5 步顺序执行，不可跳步。

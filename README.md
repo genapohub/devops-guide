@@ -37,7 +37,6 @@ zip -r devops-guide.zip devops-guide/ ~/.workbuddy/skills/devops-guide
 ```bash
 git clone https://github.com/genapohub/devops-guide.git
 zip -r devops-guide.zip devops-guide/
-zip -r devops-guide.zip devops-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
 

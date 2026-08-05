@@ -76,6 +76,7 @@ tags:
 - K8s 配置给出完整的 YAML manifest（Deployment/Service/HPA/PDB）
 - 监控告警给出具体指标 + 阈值 + 通知方式
 - 遵循"七、DevOps 通用规范"
+- **必须读取并应用"十、超越AI味"章节**：产出方案时融入真实岗位经验，拒绝模板化输出
 - 产出后保存为 Markdown 文件
 
 ### Step 5: 质量检查

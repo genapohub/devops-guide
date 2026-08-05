@@ -29,8 +29,7 @@ CI/CD、DevOps、Kubernetes、Docker、监控、告警、日志、云架构、�
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/devops-guide.git
-zip -r devops-guide.zip devops-guide/ ~/.workbuddy/skills/devops-guide
+git clone https://github.com/genapohub/devops-guide.git ~/.workbuddy/skills/devops-guide
 ```
 
 **方式二：ZIP导入**
@@ -53,12 +52,10 @@ Trae → **设置** → **Rules & Skills** → **创建** → 上传 `devops-gui
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/devops-guide.git
-zip -r devops-guide.zip devops-guide/ ~/.codex/skills/devops-guide
+git clone https://github.com/genapohub/devops-guide.git ~/.codex/skills/devops-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/devops-guide.git
-zip -r devops-guide.zip devops-guide/ ~/.cc-switch/skills/devops-guide
+git clone https://github.com/genapohub/devops-guide.git ~/.cc-switch/skills/devops-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$devops-guide` 手动调用。
@@ -66,8 +63,7 @@ zip -r devops-guide.zip devops-guide/ ~/.cc-switch/skills/devops-guide
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/devops-guide.git
-zip -r devops-guide.zip devops-guide/ ~/.cursor/skills-cursor/devops-guide
+git clone https://github.com/genapohub/devops-guide.git ~/.cursor/skills-cursor/devops-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$devops-guide` 手动调用。

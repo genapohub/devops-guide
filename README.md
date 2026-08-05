@@ -71,19 +71,6 @@ git clone https://github.com/genapohub/devops-guide.git ~/.cursor/skills-cursor/
 我们的服务需要完善的监控告警体系
 从阿里云迁移到腾讯云，出方案
 ```
-
-## 目录结构
-
-```
-devops-guide/
-├── SKILL.md
-├── README.md
-├── LICENSE
-├── .gitignore
-└── references/
-    └── DevOps方法论.md
-```
-
 ## 许可
 
 [MIT](LICENSE) © zhangmengbo

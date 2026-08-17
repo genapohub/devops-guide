@@ -87,12 +87,12 @@ trigger_keywords:
 - K8s 配置给出完整的 YAML manifest（Deployment/Service/HPA/PDB）
 - 监控告警给出具体指标 + 阈值 + 通知方式
 - 遵循"七、DevOps 通用规范"
-- **必须读取并应用"十、超越AI味"章节**：产出方案时融入真实岗位经验，拒绝模板化输出
+- **必须读取并应用"十一、超越AI味"章节**：产出方案时融入真实岗位经验，拒绝模板化输出
 - 产出后保存为 Markdown 文件
 
 ### Step 5: 质量检查
 
-读取 `references/DevOps方法论.md` 的"八、产出质量检查清单"：
+读取 `references/DevOps方法论.md` 的"十、产出质量检查清单"：
 
 - CI/CD Pipeline 覆盖 Build→Test→Scan→Deploy 全流程
 - 容器化符合最佳实践（多阶段构建/非root/资源限制）
@@ -102,7 +102,7 @@ trigger_keywords:
 - 安全覆盖镜像/网络/密钥/审计
 - 回滚方案可执行
 
-- **去AI味**：对照"十、超越AI味"逐条自检，拒绝模板化产出
+- **去AI味**：对照"十一、超越AI味"逐条自检，拒绝模板化产出
 - 记忆已写入（`.skills-memory/YYYY-MM-DD.md` 有本次会话条目，无则立即补写）
 
 ## 资源说明

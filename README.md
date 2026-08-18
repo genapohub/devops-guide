@@ -63,6 +63,14 @@ git clone https://github.com/genapohub/devops-guide.git ~/.cursor/skills-cursor/
 
 ---
 
+
+## 特性
+
+- 5 类场景自动路由识别，产出清单按场景裁剪
+- **内置可填空模板**：方法论内置「部署 Runbook / 故障复盘」，产出时按占位符直接填充，文档规范度对齐业界标准
+
+---
+
 ## 使用
 
 ```

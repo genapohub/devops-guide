@@ -81,6 +81,8 @@ trigger_keywords:
 
 读取 `references/DevOps方法论.md` 对应场景章节。
 
+> **专家蒸馏增量（2026-09-06 并入）**：MVP/快速项目的部署交付方案，兜底检查四条底线——部署后可验证（/health + 页面 200 + 核心流程）、可回滚（上一版镜像保留）、数据有备份（每日 + 每月验证）、交付自包含（.env.example + DEPLOY.md + 一键启动）。详见 `references/expert-distill/mvp-devops-蒸馏.md`。
+
 产出要求：
 - 架构图使用 Mermaid 或 ASCII 描述（网络拓扑/部署拓扑/数据流）
 - Pipeline 定义给出完整的 YAML 配置示例（GitHub Actions/GitLab CI）

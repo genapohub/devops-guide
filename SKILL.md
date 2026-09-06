@@ -81,7 +81,7 @@ trigger_keywords:
 
 读取 `references/DevOps方法论.md` 对应场景章节。
 
-> **专家蒸馏增量（2026-09-06 并入）**：MVP/快速项目的部署交付方案，兜底检查四条底线——部署后可验证（/health + 页面 200 + 核心流程）、可回滚（上一版镜像保留）、数据有备份（每日 + 每月验证）、交付自包含（.env.example + DEPLOY.md + 一键启动）。详见 `references/expert-distill/mvp-devops-蒸馏.md`。
+> **专家蒸馏增量（2026-09-06 并入）**：MVP/快速项目的部署交付方案，兜底检查四条底线——部署后可验证（/health + 页面 200 + 核心流程）、可回滚（上一版镜像保留）、数据有备份（每日 + 每月验证）、交付自包含（.env.example + DEPLOY.md + 一键启动）。详见 `references/expert-distill/mvp-devops-蒸馏.md`。进入**生产级基础设施运维**（非 MVP 部署）时，另读取 `references/expert-distill/infra-ops-蒸馏.md`（运维通：监控告警量化阈值 CPU>80%/内存>90%/磁盘>85%/服务宕、备份七要素=加密+异地+验证+清理+通知+错误处理+分层、IaC 纪律、健康报告模板、运维量化指标 99.9%/MTTR<4h）。
 
 产出要求：
 - 架构图使用 Mermaid 或 ASCII 描述（网络拓扑/部署拓扑/数据流）
